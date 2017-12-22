@@ -50,6 +50,7 @@
   <ItemGroup>
     <Compile Include="AdventOfCode2016\Day3Test.cs" />
     <Compile Include="AdventOfCode2015\Day1Test.cs" />
+    <Compile Include="AdventOfCode2017\Day16Test.cs" />
     <Compile Include="AdventOfCode2017\Day15Test.cs" />
     <Compile Include="AdventOfCode2017\Day14Test.cs" />
     <Compile Include="AdventOfCode2017\Day13Test.cs" />
