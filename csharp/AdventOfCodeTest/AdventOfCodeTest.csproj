@@ -67,6 +67,7 @@
     <Compile Include="AdventOfCode2017\Day3Test.cs" />
     <Compile Include="AdventOfCode2017\Day2Test.cs" />
     <Compile Include="AdventOfCode2017\Day1Test.cs" />
+    <Compile Include="AdventOfCode2018\Day3Test.cs" />
     <Compile Include="AdventOfCode2018\Day2Test.cs" />
     <Compile Include="AdventOfCode2018\Day1Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
