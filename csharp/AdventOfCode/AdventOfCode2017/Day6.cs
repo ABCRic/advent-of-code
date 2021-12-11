@@ -9,9 +9,10 @@ namespace AdventOfCode.AdventOfCode2017
     {
         class IntArrayEqualityComparer : IEqualityComparer<int[]>
         {
-            public bool Equals(int[] x, int[] y)
+            public bool Equals(int[]? x, int[]? y)
             {
-                return x == y || x.SequenceEqual(y);
+                return x == y ||
+                    (x != null && y != null && x.SequenceEqual(y));
             }
 
             public int GetHashCode(int[] arr)
